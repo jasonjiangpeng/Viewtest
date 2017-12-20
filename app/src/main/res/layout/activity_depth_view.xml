@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF999999"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:background="#CCCCCC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/color_padding">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+
+     android:textColor="@color/colorPrimary"
+     android:textSize="25dp"
+     android:id="@+id/textvalue"/>
+        <com.hjimi.depth.GLPanel
+            android:id="@+id/sv_depth_view"
+            android:layout_width="960px"
+            android:layout_height="720px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
